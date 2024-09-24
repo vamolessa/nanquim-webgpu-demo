@@ -1,13 +1,13 @@
 *.bat text eol=crlf
 
-*.wasm filter=lfs diff=lfs merge=lfs -text
+#*.wasm filter=lfs diff=lfs merge=lfs -text
 *.spv filter=lfs diff=lfs merge=lfs -text
 *.dxbc filter=lfs diff=lfs merge=lfs -text
-*.shader_info filter=lfs diff=lfs merge=lfs -text
-*.envmap filter=lfs diff=lfs merge=lfs -text
+#*.shader_info filter=lfs diff=lfs merge=lfs -text
+#*.envmap filter=lfs diff=lfs merge=lfs -text
 *.hdr filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
-*.jpg filter=lfs diff=lfs merge=lfs -text
-*.glb filter=lfs diff=lfs merge=lfs -text
-*.bin filter=lfs diff=lfs merge=lfs -text
-*.pack filter=lfs diff=lfs merge=lfs -text
+#*.png filter=lfs diff=lfs merge=lfs -text
+#*.jpg filter=lfs diff=lfs merge=lfs -text
+#*.glb filter=lfs diff=lfs merge=lfs -text
+#*.bin filter=lfs diff=lfs merge=lfs -text
+#*.pack filter=lfs diff=lfs merge=lfs -text
