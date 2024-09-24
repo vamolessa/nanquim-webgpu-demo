@@ -30,9 +30,12 @@ canvas {
 <!-- init script -->
 <script type="module">
 	import * as nanquim from "./nanquim.js"
+	const wasm_module_path = nanquim.IS_LOCALHOST ?
+		"../../build/app_wasm.wasm" :
+		"app_wasm.wasm";
 	async function init() {
 		await nanquim.init({
-			wasm_source_promise: fetch("../../build/app_wasm.wasm"),
+			wasm_source_promise: fetch(wasm_module_path),
 		});
 	}
 	setTimeout(init, 0.0);

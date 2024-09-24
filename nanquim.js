@@ -10,7 +10,7 @@ const WASM_MEMORY_PAGES_LEN = WASM_MEMORY_SIZE / WASM_MEMORY_PAGE_SIZE;
 // STATE
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
-const IS_LOCALHOST =
+export const IS_LOCALHOST =
 	location.hostname === "localhost" ||
 	location.hostname === "127.0.0.1";
 
