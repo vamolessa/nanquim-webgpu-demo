@@ -30,6 +30,7 @@ canvas {
 <!-- init script -->
 <script type="module">
 	import * as nanquim from "./nanquim.js"
+	console.log("test");
 	const wasm_module_path =
 		!nanquim.IS_LOCALHOST ? "./app_wasm.wasm" :
 		window.location.search.length > 0 ? window.location.search.substring(1) :
